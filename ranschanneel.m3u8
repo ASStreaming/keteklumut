@@ -1,6 +1,10 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=243053,RESOLUTION=640x480,FRAME-RATE=25.000,CLOSED-CAPTIONS=NONE
-http://12537-stream-ip-tv.xyz/play/nosignal/ntscpal_hls.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1294369,RESOLUTION=1920x1080,FRAME-RATE=25.000,CLOSED-CAPTIONS=NONE
-http://12537-stream-ip-tv.xyz/play/nosignal/fhd_hls.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=1500000,NAME=720p,RESOLUTION=1280x720
+https://live-production.secureswiftcontent.com/exp=1690740365~acl=/hls-p/ingest_8241_*/*~hmac=00adf36247bda8dff57feb1155ebfc73b63da56ca1067dee1183330e367c0f02/hls-p/ingest_8241_720p/index.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=1200000,NAME=480p,RESOLUTION=854x480
+https://live-production.secureswiftcontent.com/exp=1690740365~acl=/hls-p/ingest_8241_*/*~hmac=00adf36247bda8dff57feb1155ebfc73b63da56ca1067dee1183330e367c0f02/hls-p/ingest_8241_480p/index.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=625000,NAME=360p,RESOLUTION=640x360
+https://live-production.secureswiftcontent.com/exp=1690740365~acl=/hls-p/ingest_8241_*/*~hmac=00adf36247bda8dff57feb1155ebfc73b63da56ca1067dee1183330e367c0f02/hls-p/ingest_8241_360p/index.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=375000,NAME=240p,RESOLUTION=426x240
+https://live-production.secureswiftcontent.com/exp=1690740365~acl=/hls-p/ingest_8241_*/*~hmac=00adf36247bda8dff57feb1155ebfc73b63da56ca1067dee1183330e367c0f02/hls-p/ingest_8241_240p/index.m3u8
